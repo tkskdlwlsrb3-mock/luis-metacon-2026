@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--LME-WM:THVpcycgTWFwcGluZyBFbmdsaXNoIHwgQUkgTUFLRVJTIO2KueqwlSDsi5zrpqzspoggfCBNZXRhQ29uIERheTIgMjAyNi0wNy0wNA==-->
+<html lang="ko">
+<head>
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Luis' Mapping English">
+  <meta property="og:title" content="2강 딸깍의 진실 — 특집강연 카드뉴스">
+  <meta property="og:description" content="2026.07.04 서울메타위크 메타콘 Day 2 현장 참관 기반 특집강연 2강 카드뉴스. 바이브 코딩은 코딩이 아니라 번역이다 — 이석현 바이브랩스 대표 세션. Luis' Mapping English.">
+  <meta property="og:image" content="https://tkskdlwlsrb3-mock.github.io/luis-metacon-2026/img/2.png">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1350">
+  <meta property="og:url" content="https://tkskdlwlsrb3-mock.github.io/luis-metacon-2026/2.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2강 딸깍의 진실 — 특집강연 카드뉴스">
+  <meta name="twitter:image" content="https://tkskdlwlsrb3-mock.github.io/luis-metacon-2026/img/2.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2강 딸깍의 진실 — 특집강연 카드뉴스 | Luis' Mapping English</title>
+<meta name="description" content="2026.07.04 서울메타위크 메타콘 Day 2 현장 참관 기반 특집강연 2강 카드뉴스. 바이브 코딩은 코딩이 아니라 번역이다 — 이석현 바이브랩스 대표 세션. Luis' Mapping English.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+
+  /* ============================================================
+     2강 — DATA JOURNALISM (FT · Reuters)
+     salmon paper #FFF1E5 · ink #262A33 · oxford blue #0F5499
+     claret #990F3D · teal #0D7680 · numbers in IBM Plex Mono
+     ============================================================ */
+  :root{--lme-wm:"THVpcycgTWFwcGluZyBFbmdsaXNoIHwgQUkgTUFLRVJTIO2KueqwlSDsi5zrpqzspoggfCBNZXRhQ29uIERheTIgMjAyNi0wNy0wNA==";
+    --paper:#FFF1E5;
+    --ink:#262A33;
+    --accent:#0F5499;
+    --claret:#990F3D;
+    --teal:#0D7680;
+    --body:rgba(38,42,51,.86);
+    --mute:rgba(38,42,51,.58);
+    --hair:rgba(38,42,51,.22);
+  }
+
+  body{
+    background:var(--paper);
+    font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,"Malgun Gothic",sans-serif;
+    color:var(--ink);
+    word-break:keep-all;
+    overflow-wrap:break-word;
+    line-height:1.5;
+    padding:20px 12px 84px;
+  }
+
+  .deck{ display:flex; flex-direction:column; align-items:center; gap:28px; }
+
+  /* 4:5 프레임 (공통 규격) */
+  .card{
+    width:min(94vw,540px);
+    aspect-ratio:4/5;
+    container-type:inline-size;
+    overflow:hidden;
+    background:var(--paper);
+    color:var(--ink);
+    border:1px solid var(--hair);
+    box-shadow:0 2px 22px rgba(38,42,51,.07);
+  }
+
+  .in{ height:100%; display:flex; flex-direction:column; padding:6.6cqw 7.5cqw 5.6cqw; }
+
+  /* 표지 상단 앰블럼(마스트헤드) */
+  .brand-top{ padding-bottom:3.2cqw; margin-bottom:3.4cqw; border-bottom:1px solid var(--hair); }
+
+  /* 상단 — 섹션 태그 + 페이지, 얇은 룰선 */
+  .meta{ display:flex; justify-content:space-between; align-items:baseline; padding-bottom:3cqw; border-bottom:1.5px solid var(--ink); }
+  .meta .ml{ font-family:"IBM Plex Sans KR",sans-serif; font-size:2.55cqw; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--ink); }
+  .meta .mr{ font-family:"IBM Plex Mono",monospace; font-size:2.5cqw; font-weight:500; color:var(--mute); font-variant-numeric:tabular-nums; letter-spacing:.06em; }
+
+  .body{ flex:1; display:flex; flex-direction:column; justify-content:flex-start; padding:6cqw 0 4cqw; }
+
+  /* 헤드라인 시스템 — 키커 / 액션 타이틀(절제된 명조) / 악센트 룰 */
+  .kicker{ font-family:"IBM Plex Sans KR",sans-serif; font-size:2.55cqw; font-weight:700; letter-spacing:.2em; text-transform:uppercase; color:var(--accent); margin-bottom:3cqw; }
+  .headline{ font-family:'Pretendard', sans-serif; font-weight:800; font-size:7cqw; line-height:1.16; letter-spacing:-0.02em; color:var(--ink); }
+  .headline.cover{ font-size:7cqw; }
+  .rule{ width:12cqw; height:0.7cqw; background:var(--accent); margin:3.6cqw 0 0; }
+
+  /* 인용 — 괄호/브래킷 주석 레이어 (클라레) */
+  .quote{ font-family:"Noto Serif KR",serif; font-weight:600; font-size:3.45cqw; line-height:1.6; color:var(--ink); margin:4.6cqw 0 0; padding-left:3.8cqw; border-left:2px solid var(--claret); }
+
+  .copy{ font-size:3.1cqw; font-weight:450; line-height:1.8; color:var(--body); margin-top:4cqw; text-wrap:pretty; word-break:keep-all; }
+  .copy + .copy{ margin-top:3.4cqw; }
+
+  /* 액션 주석 — 화살표 리더 (틸) */
+  .takeaway{ position:relative; padding-left:5cqw; color:var(--ink); font-weight:500; }
+  .takeaway::before{ content:"\2192"; position:absolute; left:0; top:0; color:var(--teal); font-family:"IBM Plex Mono",monospace; font-weight:600; }
+
+  /* 수치 직접 라벨링 — 모노 tabular, 강조색 */
+  .num{ font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-weight:600; letter-spacing:-0.01em; }
+  .hl{ color:var(--accent); font-weight:700; }
+  .hl-cl{ color:var(--claret); font-weight:700; }
+  .hl-tl{ color:var(--teal); font-weight:700; }
+
+  /* 얇은 0 베이스라인 — 차트 축 모티프 */
+  .baseline{ height:1px; background:var(--teal); opacity:.5; margin-top:4.4cqw; }
+
+  .ts{ font-family:"IBM Plex Mono",monospace; font-size:2.5cqw; font-weight:500; color:var(--mute); white-space:nowrap; letter-spacing:0; }
+  .note{ font-family:"IBM Plex Mono",monospace; font-size:2.4cqw; font-weight:500; color:var(--teal); white-space:nowrap; letter-spacing:0; }
+
+  /* 각 카드 하단 앰블럼 + 푸터 */
+  .foot{ border-top:1.5px solid var(--ink); padding-top:3.2cqw; display:flex; flex-direction:column; gap:1.8cqw; }
+  .lme-emblem{ display:inline-flex; align-items:center; gap:.5em; font-size:3cqw; color:var(--ink); }
+  .lme-mk{ width:.62em; height:.62em; background:var(--accent); display:inline-block; flex:none; }
+  .lme-tx{ font-family:'Pretendard',sans-serif; font-weight:600; letter-spacing:.01em; color:currentColor; }
+  .cr{ font-family:"IBM Plex Sans KR",sans-serif; font-size:1.8cqw; font-weight:400; letter-spacing:0; color:var(--mute); }
+</style>
+</head>
+<body>
+
+<main class="deck">
+
+  <!-- 01 표지 -->
+  <section class="card" aria-label="카드 1/6 표지">
+    <div class="in">
+      <div class="brand-top">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+      </div>
+      <header class="meta"><span class="ml">특집강연 2강</span><span class="mr">01 / 06</span></header>
+      <div class="body">
+        <p class="kicker">특집강연 2강</p>
+        <h1 class="headline cover">딸깍 한 번 뒤에<br>두 달의 밤이<br>있었습니다</h1>
+        <div class="rule"></div>
+        <p class="copy">프롬프트 한 번으로 완성된 영상. 그 뒤에 숨은 진실은 무엇이었을까요.<br>2026년 7월 4일 코엑스 <span class="hl">메타콘 Day 2</span>, 바이브랩스 이석현 대표의 이야기입니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 2강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 02 현장의 한 문장 -->
+  <section class="card" aria-label="카드 2/6 현장의 한 문장">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 2강</span><span class="mr">02 / 06</span></header>
+      <div class="body">
+        <p class="kicker">현장의 한 문장</p>
+        <h2 class="headline">딸깍 한 번,<br>두 달의 밤샘</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;이 영상은 딸깍으로 만들었거든요. 다만 이런 퀄리티를 얻기 위해 두 달 동안 잠을 못 자고 수없이 많은 대화를 반복했습니다&rdquo; <span class="ts">(37:23)</span></p>
+        <p class="copy takeaway">AI는 노력을 없애 주지 않았습니다.<br>노력의 형태를 바꿨을 뿐입니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 2강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 03 핵심 개념 하나 -->
+  <section class="card" aria-label="카드 3/6 핵심 개념 하나">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 2강</span><span class="mr">03 / 06</span></header>
+      <div class="body">
+        <p class="kicker">핵심 개념 하나</p>
+        <h2 class="headline">바이브 코딩은<br>코딩이 아니라<br>번역입니다</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;바이브 코딩은 코딩이 아니라 번역이다&rdquo; <span class="ts">(53:56~59:54)</span></p>
+        <p class="copy">커뮤니티에서 모은 <span class="hl-tl"><span class="num">34</span>만 건 이상</span>의 대화를 분석한 결론입니다. <span class="note">(현장 발언 기준)</span> 도메인의 말을 AI가 실행할 요구사항으로 옮기는 힘 &mdash;<br>그 본체는 글쓰기&middot;말하기입니다.</p>
+        <div class="baseline"></div>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 2강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 04 공부와 진로로 잇기 -->
+  <section class="card" aria-label="카드 4/6 공부와 진로로 잇기">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 2강</span><span class="mr">04 / 06</span></header>
+      <div class="body">
+        <p class="kicker">공부와 진로로 잇기</p>
+        <h2 class="headline">AI 시대의<br>실기 과목은<br>국어&middot;영어입니다</h2>
+        <div class="rule"></div>
+        <p class="copy">프롬프트는 주문이 아니라 번역문입니다. 원하는 것을 정확한 문장으로 옮기고, 답의 빈틈을 읽어내는 힘 &mdash;<br>국어와 영어 시간이 오래 길러 온 바로 그 능력입니다.</p>
+        <p class="copy">기본 IT 개념은 책 한 권, <span class="hl"><span class="num">2</span>시간</span>이면 익힌다고 했습니다. <span class="note">(현장 발언 기준)</span><br>어휘는 금방 익혀도, 요구를 담은 &lsquo;문장&rsquo;은 훈련이 필요합니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 2강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 05 오해 하나 걷어내기 -->
+  <section class="card" aria-label="카드 5/6 오해 하나 걷어내기">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 2강</span><span class="mr">05 / 06</span></header>
+      <div class="body">
+        <p class="kicker">오해 하나 걷어내기</p>
+        <h2 class="headline">&lsquo;무료로 다 된다&rsquo;는<br>착각입니다</h2>
+        <div class="rule"></div>
+        <p class="copy">기획 대화는 <span class="num">2</span>만 원대 구독으로 되지만, 제품을 만들려면 유료 도구가 필요합니다.<br>전업 빌더의 &lsquo;디지털 월세&rsquo;는 월 <span class="hl-cl"><span class="num">100</span>만 원</span> 수준으로 잡으라고 했습니다. <span class="note">(현장 발언 기준)</span></p>
+        <p class="copy takeaway">무료&middot;저가만 고집하는 것은 절약이 아니라 좌절의 지름길이 될 수 있다는 조언이었습니다.<br>무엇에 얼마를 쓸지 정하는 비용 설계도 번역의 일부입니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 2강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 06 클로징 -->
+  <section class="card" aria-label="카드 6/6 클로징">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 2강</span><span class="mr">06 / 06</span></header>
+      <div class="body">
+        <p class="kicker">남는 것은 무엇인가</p>
+        <h2 class="headline">툴은 바뀌어도<br>전문성은 남습니다</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;툴은 늘 바뀝니다. 그런데 여러분의 직업, 여러분의 전문성은 끝나지 않을 거예요&rdquo; <span class="ts">(1:11:30~1:12:30)</span></p>
+        <p class="copy"><span class="hl">오늘의 탐구 질문</span> &mdash; &ldquo;같은 요구를 다르게 번역하면, 결과는 얼마나 달라질까?&rdquo;<br>내 말과 글을 다듬는 일이, AI 시대의 실력을 다듬는 일입니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 2강</p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
