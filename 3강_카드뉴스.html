@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--LME-WM:THVpcycgTWFwcGluZyBFbmdsaXNoIHwgQUkgTUFLRVJTIO2KueqwlSDsi5zrpqzspoggfCBNZXRhQ29uIERheTIgMjAyNi0wNy0wNA==-->
+<html lang="ko">
+<head>
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Luis' Mapping English">
+  <meta property="og:title" content="3강 혼자서도 된다 — 특집강연 카드뉴스">
+  <meta property="og:description" content="2026.07.04 서울메타위크 메타콘 Day 2 현장 참관 기반 특집강연 3강 카드뉴스. AI가 바꾼 창업의 공식 — 류기백 팔레트 스튜디오 창업자 세션. Luis' Mapping English.">
+  <meta property="og:image" content="https://tkskdlwlsrb3-mock.github.io/luis-metacon-2026/png/3강_01.png">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1350">
+  <meta property="og:url" content="https://tkskdlwlsrb3-mock.github.io/luis-metacon-2026/3강_카드뉴스.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="3강 혼자서도 된다 — 특집강연 카드뉴스">
+  <meta name="twitter:image" content="https://tkskdlwlsrb3-mock.github.io/luis-metacon-2026/png/3강_01.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3강 혼자서도 된다 — 특집강연 카드뉴스 | Luis' Mapping English</title>
+<meta name="description" content="2026.07.04 서울메타위크 메타콘 Day 2 현장 참관 기반 특집강연 3강 카드뉴스. AI가 바꾼 창업의 공식 — 류기백 팔레트 스튜디오 창업자 세션. Luis' Mapping English.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+
+  /* ============================================================
+     3강 — TECH KEYNOTE / PRODUCT (Apple · Linear, dark)
+     surface #0A0A0A / #171717 · single accent indigo #5E6AD2
+     deep #0A2540 · light #F6F9FC · mono data labels · 8px grid
+     ============================================================ */
+  :root{--lme-wm:"THVpcycgTWFwcGluZyBFbmdsaXNoIHwgQUkgTUFLRVJTIO2KueqwlSDsi5zrpqzspoggfCBNZXRhQ29uIERheTIgMjAyNi0wNy0wNA==";
+    --bg:#0A0A0A;
+    --surface:#171717;
+    --ink:#F6F9FC;
+    --accent:#5E6AD2;
+    --deep:#0A2540;
+    --mute:rgba(246,249,252,.56);
+    --faint:rgba(246,249,252,.40);
+    --hair:rgba(246,249,252,.09);
+  }
+
+  body{
+    background:var(--bg);
+    font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,system-ui,"Malgun Gothic",sans-serif;
+    color:var(--ink);
+    word-break:keep-all;
+    overflow-wrap:break-word;
+    line-height:1.5;
+    padding:24px 12px 92px;
+  }
+
+  .deck{ display:flex; flex-direction:column; align-items:center; gap:30px; }
+
+  /* 4:5 프레임 (공통 규격) — 저채도 다크 표면 */
+  .card{
+    width:min(94vw,540px);
+    aspect-ratio:4/5;
+    container-type:inline-size;
+    overflow:hidden;
+    background:linear-gradient(180deg,#161616,#101010);
+    border:1px solid var(--hair);
+    color:var(--ink);
+  }
+  /* 표지 — 인디고 헤일로(단일 액센트) */
+  .card.hero{
+    background:
+      radial-gradient(135% 90% at 50% -18%, rgba(94,106,210,.20), rgba(10,37,64,.10) 42%, transparent 62%),
+      linear-gradient(180deg,#181818,#0d0d0d);
+  }
+
+  /* 8px 그리드 · 넓은 여백 */
+  .in{ height:100%; display:flex; flex-direction:column; padding:9cqw 8.5cqw 7cqw; }
+
+  /* 표지 상단 앰블럼(마스트헤드) */
+  .brand-top{ padding-bottom:4cqw; margin-bottom:4cqw; border-bottom:1px solid var(--hair); }
+
+  /* 거의 안 보이는 1px 헤어라인 + 모노 라벨 */
+  .meta{ display:flex; justify-content:space-between; align-items:center; padding-bottom:4cqw; border-bottom:1px solid var(--hair); font-family:"IBM Plex Mono",monospace; }
+  .meta span{ font-size:2.45cqw; font-weight:500; letter-spacing:.16em; text-transform:uppercase; }
+  .meta .ml{ color:var(--mute); }
+  .meta .mr{ color:var(--faint); font-variant-numeric:tabular-nums; }
+
+  .body{ flex:1; display:flex; flex-direction:column; justify-content:flex-start; padding:6cqw 0 4cqw; }
+
+  /* 헤드라인 시스템 — 모노 키커 / Pretendard ExtraBold(자간 음수) / 인디고 룰 */
+  .kicker{ font-family:"IBM Plex Mono",monospace; font-size:2.5cqw; font-weight:500; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); margin-bottom:4cqw; }
+  .headline{ font-family:'Pretendard', sans-serif; font-weight:800; font-size:7cqw; line-height:1.16; letter-spacing:-0.02em; color:var(--ink); }
+  .headline.cover{ font-size:7cqw; }
+  .rule{ width:9cqw; height:0.6cqw; background:var(--accent); border-radius:1px; margin:5cqw 0 0; }
+
+  /* 인용 — 인디고 헤어라인 좌측 (유일한 신호) */
+  .quote{ font-family:"Pretendard Variable",Pretendard,sans-serif; font-weight:500; font-size:3.5cqw; line-height:1.62; color:var(--ink); margin-top:6cqw; padding-left:4cqw; border-left:1px solid var(--accent); }
+  .copy{ font-size:3.1cqw; font-weight:400; line-height:1.8; color:var(--mute); margin-top:5cqw; text-wrap:pretty; word-break:keep-all; }
+  .copy + .copy{ margin-top:3.4cqw; }
+
+  /* 모노 데이터 라벨 · 단일 인디고 강조 */
+  .mono, .num{ font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; font-weight:500; color:var(--ink); }
+  .hl{ color:var(--accent); font-weight:600; }
+  .ts{ font-family:"IBM Plex Mono",monospace; font-size:2.5cqw; font-weight:400; color:var(--faint); white-space:nowrap; letter-spacing:0; }
+  .note{ font-family:"IBM Plex Mono",monospace; font-size:2.4cqw; font-weight:400; color:var(--faint); white-space:nowrap; letter-spacing:0; }
+
+  /* 각 카드 하단 앰블럼 + 푸터 */
+  .foot{ border-top:1px solid var(--hair); padding-top:4cqw; display:flex; flex-direction:column; gap:2.2cqw; }
+  .lme-emblem{ display:inline-flex; align-items:center; gap:.5em; font-size:3cqw; color:var(--ink); }
+  .lme-mk{ width:.62em; height:.62em; background:var(--accent); display:inline-block; flex:none; }
+  .lme-tx{ font-family:'Pretendard',sans-serif; font-weight:600; letter-spacing:.01em; color:currentColor; }
+  .cr{ font-family:"IBM Plex Mono",monospace; font-size:1.7cqw; font-weight:400; letter-spacing:0; color:var(--faint); }
+</style>
+</head>
+<body>
+
+<main class="deck">
+
+  <!-- 01 표지 -->
+  <section class="card hero" aria-label="카드 1/6 표지">
+    <div class="in">
+      <div class="brand-top">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+      </div>
+      <header class="meta"><span class="ml">특집강연 3강</span><span class="mr">01 / 06</span></header>
+      <div class="body">
+        <p class="kicker">특집강연 3강</p>
+        <h1 class="headline cover">혼자서도<br>회사를 만드는<br>시대</h1>
+        <div class="rule"></div>
+        <p class="copy">큰 투자를 받아 크게 키우는 창업 공식이 흔들립니다.<br>2026년 7월 4일 코엑스 <span class="hl">메타콘 Day 2</span>, 실리콘밸리 출신 창업자 류기백(팔레트 스튜디오)의 이야기입니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 3강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 02 현장의 한 문장 -->
+  <section class="card" aria-label="카드 2/6 현장의 한 문장">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 3강</span><span class="mr">02 / 06</span></header>
+      <div class="body">
+        <p class="kicker">현장의 한 문장</p>
+        <h2 class="headline">10곳 중 9곳이<br>망해도 되는 게임</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;10군데 투자해서 9개가 망하고 한 군데만 대박 터져도 리턴이 되는 포트폴리오 모델&hellip; 한 번 받는 순간 10년간 모 아니면 도로 묶여 있는 거예요&rdquo; <span class="ts">(00:48~01:52)</span></p>
+        <p class="copy">실리콘밸리에서 큰 투자를 유치했던 창업자가, 왜 서울에서 투자 없이 다시 시작했을까.<br>답은 인센티브 구조였습니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 3강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 03 무대에서 나온 숫자 -->
+  <section class="card" aria-label="카드 3/6 무대에서 나온 숫자">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 3강</span><span class="mr">03 / 06</span></header>
+      <div class="body">
+        <p class="kicker">무대에서 나온 숫자</p>
+        <h2 class="headline">월급 200불짜리<br>&lsquo;AI 직원&rsquo;</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;월급 200불짜리 AI 직원&rdquo; <span class="ts">(01:52~02:42)</span></p>
+        <p class="copy">개발&middot;조사&middot;영업 실무를 AI가 감당하니, 투자 없이 혼자 성장하는 길이 현실적 선택지가 됐다는 것입니다. <span class="note">(현장 발언 기준)</span><br><span class="num">48</span>시간 해커톤으로 만든 제품이 몇 주 만에 매출을 낸 사례도 소개됐습니다. <span class="note">(현장 발언 기준)</span></p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 3강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 04 핵심 개념 하나 -->
+  <section class="card" aria-label="카드 4/6 핵심 개념 하나">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 3강</span><span class="mr">04 / 06</span></header>
+      <div class="body">
+        <p class="kicker">핵심 개념 하나</p>
+        <h2 class="headline">AI에게 건네는<br>지침서 한 장</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;일반의가 안과 전문의처럼&rdquo; 되게 하는 문서 <span class="ts">(07:05)</span></p>
+        <p class="copy">&lsquo;스킬&rsquo;은 결국 전문가의 지식을 담은 문서 한 장입니다.<br>최신 AI도 현장 노하우는 모르기 때문입니다.<br>벽돌을 쌓다 무너지면 규칙을 덧붙이는 식이 아니라, 무엇이 좋은 결과물인지 기준을 먼저 설계하는 것이 핵심이라고 했습니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 3강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 05 공부와 진로로 잇기 -->
+  <section class="card" aria-label="카드 5/6 공부와 진로로 잇기">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 3강</span><span class="mr">05 / 06</span></header>
+      <div class="body">
+        <p class="kicker">공부와 진로로 잇기</p>
+        <h2 class="headline">모두가 평균이 될수록,<br>감식안이 귀합니다</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;AI가 아무리 잘 돼도 결국 평균으로 가거든요&rdquo; <span class="ts">(16:43~18:26)</span></p>
+        <p class="copy">정답 있는 일은 AI가 채우고, &lsquo;무엇이 더 좋은가&rsquo;를 판정하는 취향과 기준이 병목이자 산업이 됩니다.<br>왜 좋은지 이유를 말하는 힘 &mdash;<br>자녀의 감식안은 소비 습관이 아니라 <span class="hl">커리어 자산</span>이 될 수 있습니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 3강</p>
+      </footer>
+    </div>
+  </section>
+
+  <!-- 06 클로징 -->
+  <section class="card" aria-label="카드 6/6 클로징">
+    <div class="in">
+      <header class="meta"><span class="ml">특집강연 3강</span><span class="mr">06 / 06</span></header>
+      <div class="body">
+        <p class="kicker">마지막 실행 명령</p>
+        <h2 class="headline">모르는 사람이<br>쓰게, 팔아 보라</h2>
+        <div class="rule"></div>
+        <p class="quote">&ldquo;일단 무조건 제품을 만들어서, 본인이 모르는 사람이 쓸 수 있게 판매를 해 보고 창업을 해 봐라&rdquo; <span class="ts">(37:16)</span></p>
+        <p class="copy"><span class="hl">오늘의 탐구 질문</span> &mdash; &ldquo;&lsquo;좋은 글&rsquo;의 조건을 3개로 쪼갠다면 무엇일까?&rdquo;<br>만들어서 모르는 사람에게 내놓는 경험이, 좋은 기준을 세우는 힘을 길러 줍니다.</p>
+      </div>
+      <footer class="foot">
+        <div class="lme-emblem"><span class="lme-mk"></span><span class="lme-tx">Luis&rsquo; Mapping English</span></div>
+        <p class="cr">&copy; Luis&rsquo; Mapping English &middot; 서울메타위크 메타콘 Day 2 (2026.07.04) 참관 기반 특강 시리즈 &middot; 3강</p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
